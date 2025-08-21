@@ -10,6 +10,13 @@ document.body.appendChild(container)
 container.style.width="100%"
 container.style.marginLeft="35px"
 container.style.marginRight="35px"
+btn.style.backgroundColor="rgb(194, 0, 0)"
+btn.style.color="white"
+btn.style.width="70px"
+btn.style.height="40px"
+btn.style.borderStyle="none"
+btn.style.borderRadius="6px"
+btn.style.fontSize="20px"
 
 
 function element(){
@@ -52,4 +59,5 @@ function element(){
 }
 btn.addEventListener("click",function(){
     element()
+
 })
